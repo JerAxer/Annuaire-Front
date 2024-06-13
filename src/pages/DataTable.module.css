@@ -1,0 +1,42 @@
+.content,
+.dataTable,
+.topbar {
+  display: flex;
+  align-items: flex-start;
+}
+.content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 250px);
+}
+.dataTable,
+.topbar {
+  flex-direction: row;
+}
+.topbar {
+  width: 1366px;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: var(--color-white);
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataTable {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  justify-content: center;
+  padding: 69px var(--padding-xl) 70px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 950px) {
+  .content {
+    max-width: 100%;
+  }
+}

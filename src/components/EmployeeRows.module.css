@@ -1,0 +1,250 @@
+.employeeStatusIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.codyFisher {
+  position: relative;
+}
+.employeeNames,
+.statusIcons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.statusIcons {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.employeeStatusIcon1 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.theresaWebb {
+  position: relative;
+}
+.employeeNames1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.statusIcons1 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.statusIcons1,
+.statusIconsParent,
+.statusIconsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statusIconsWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-11xl);
+}
+.statusIconsParent {
+  width: 306px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.tienlapspktndgmailcom {
+  position: relative;
+  white-space: nowrap;
+}
+.emails {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-5) var(--padding-11xl);
+  box-sizing: border-box;
+  min-width: 187px;
+  max-width: 100%;
+  z-index: 2;
+}
+.workin {
+  position: relative;
+}
+.employeeEmails,
+.workStatusList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.workStatusList {
+  width: 208px;
+  background-color: var(--color-whitesmoke-100);
+  padding: var(--padding-base-5) var(--padding-11xl);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.employeeEmails {
+  align-self: stretch;
+  max-width: 100%;
+  row-gap: 20px;
+}
+.thuhangnutegmailcom {
+  position: relative;
+  white-space: nowrap;
+}
+.free {
+  position: relative;
+  color: var(--color-mediumslateblue);
+}
+.workStatus {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.employeeEmailsParent,
+.workStatusList1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.workStatusList1 {
+  width: 435px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.employeeEmailsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base-5);
+  min-width: 359px;
+}
+.salesManager {
+  position: relative;
+}
+.component18Icon,
+.component19Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.component18Parent,
+.role,
+.rolePermissions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component18Parent {
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.role,
+.rolePermissions {
+  flex-direction: column;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.role {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-base-5) var(--padding-11xl);
+  gap: var(--gap-xl);
+  z-index: 4;
+}
+.broadcaster {
+  position: relative;
+}
+.component18Icon1,
+.component19Icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.component18Group {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.component18Group,
+.role1,
+.rolePermissions1 {
+  display: flex;
+  align-items: flex-start;
+}
+.rolePermissions1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.role1 {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.roleList1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-11xl);
+}
+.employeeRows,
+.roleList,
+.roleList1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.roleList {
+  width: 258px;
+  flex-direction: column;
+  gap: var(--gap-base-5);
+}
+.employeeRows {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 700px) {
+  .employeeEmails {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .workStatus {
+    flex-wrap: wrap;
+  }
+  .employeeEmailsParent {
+    min-width: 100%;
+  }
+}
